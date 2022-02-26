@@ -1,0 +1,54 @@
+
+<web-app>
+	<display-name>Mystic-Servlet</display-name>
+	
+	<servlet>
+	<servlet-name>index</servlet-name>
+	<servlet-class>Index</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>jobs</servlet-name>
+	<servlet-class>Jobs</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>about</servlet-name>
+	<servlet-class>About</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>recents</servlet-name>
+	<servlet-class>Recents</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>register</servlet-name>
+	<servlet-class>Register</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>registerSubmission</servlet-name>
+	<servlet-class>RegisterSubmission</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>index</servlet-name>
+	<url-pattern>/index/</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>jobs</servlet-name>
+	<url-pattern>/jobs/</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>about</servlet-name>
+	<url-pattern>/about/</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>recents</servlet-name>
+	<url-pattern>/recents/</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>register</servlet-name>
+	<url-pattern>/register/</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>registerSubmission</servlet-name>
+	<url-pattern>/registerSubmission/</url-pattern>
+	</servlet-mapping>
+</web-app>
